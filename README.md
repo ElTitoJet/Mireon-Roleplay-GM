@@ -1,5 +1,4 @@
 # Mireon Roleplay GM
-![my_logo](https://github.com/user-attachments/assets/5a3521b6-c3c0-4c51-9d2c-2f2857932c1a)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Status: En desarrollo](https://img.shields.io/badge/status-en%20desarrollo-yellow)
@@ -36,4 +35,43 @@ Gamemode (GM) modular y extensible para servidores Multi Theft Auto: San Andreas
 - **MR15_Discord**: Webhooks con logs de conexión, sanciones, economía, y más.
 
 ### 🔫 Armamento
-- **MR16_Armas** *(basado en [Clawsuit](https://github.com/clawsuit))*: Tiendas, comandos IC para recoger/dar/tirar armas, integraciones con DB y Discord.
+- **MR16_Armas** *(basado en Clawsuit)*: Tiendas, comandos IC para recoger/dar/tirar armas, integraciones con DB y Discord.
+
+---
+
+## ⚙️ Requisitos del servidor
+- MTA:SA Server
+- MySQL (MariaDB compatible)
+- [mta_mysql](https://community.multitheftauto.com/index.php?p=resources&s=details&id=236) o sistema equivalente
+
+---
+
+## 🗃️ Base de datos
+
+Incluye un archivo `.sql` para importar directamente todas las tablas necesarias al servidor MySQL. Asegúrate de configurar correctamente el acceso en `MR1_Inicio/db_config.xml`.
+
+---
+
+## 🤝 Contribuciones
+
+Este proyecto es **público y abierto a mejoras**. Para colaborar:
+
+- Haz fork del repositorio
+- Crea una rama con tu cambio
+- Envia un Pull Request
+
+Todas las ideas serán evaluadas por el desarrollador.
+
+---
+
+## 👤 Créditos
+
+- GM desarrollada por: [ElTitoJet](https://github.com/ElTitoJet)
+- Inspirado y extendido desde scripts de: [Clawsuit](https://github.com/clawsuit)
+- Comunidad Mireon RP
+
+---
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo **MIT**. Consulta `LICENSE` para más detalles.
