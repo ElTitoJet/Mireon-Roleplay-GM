@@ -1,7 +1,8 @@
 # Mireon Roleplay GM
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Status: En desarrollo](https://img.shields.io/badge/status-en%20desarrollo-yellow)
+![Incompleto](https://img.shields.io/badge/estado-incompleto-lightgrey)
+![Abandonado](https://img.shields.io/badge/estado-abandonado-darkred)
 ![Hecho con ❤️ por Mireon RP](https://img.shields.io/badge/made%20with-%E2%9D%A4-red)
 
 Gamemode (GM) modular y extensible para servidores Multi Theft Auto: San Andreas (MTA:SA), desarrollado para el servidor **Mireon RP**. Incluye sistemas integrales para administración, economía, interacción civil, IC/OOC, combate, control vehicular, y más.
