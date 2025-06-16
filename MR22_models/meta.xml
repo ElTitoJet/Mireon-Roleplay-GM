@@ -1,0 +1,98 @@
+<meta>
+    <info 
+        author="ElTitoJet" 
+        type="script" 
+        version="1.0" 
+        name="MR22_models" 
+        description="Script que carga los modelos" 
+        
+    />
+
+    <script src="c_models.luac" type="client" />
+    	<!--Carreteras-->
+			<!--6127 By Skuishy - 795803505746640937-->
+                <file src="carreteras/lawroads_law21/lawroads_law21.dff" cache="true"/>
+                <file src="carreteras/lawroads_law21/lawroads_law21.col" cache="true"/>
+                <script src="carreteras/lawroads_law21/lawroads_law21.lua" type="client" />
+			<!--6309 By Skuishy - 795803505746640937-->
+                <file src="carreteras/roads29_law2/roads29_law2.dff" cache="true"/>
+                <file src="carreteras/roads29_law2/roads29_law2.col" cache="true"/>
+                <script src="carreteras/roads29_law2/roads29_law2.lua" type="client" />
+			<!--6122 By Skuishy - 795803505746640937-->
+                <file src="carreteras/lawroads_law16/lawroads_law16.dff" cache="true"/>
+                <script src="carreteras/lawroads_law16/lawroads_law16.lua" type="client" />
+            <!--4601 :: By Skuishy - 795803505746640937-->
+                <file src="carreteras/road_lawn11/road_lawn11.dff" cache="true"/>
+                <script src="carreteras/road_lawn11/road_lawn11.lua" type="client" />
+                
+
+
+
+
+
+
+
+
+            <!--5106 :: By Skuishy - 795803505746640937-->
+                <file src="carreteras/pasoBasurero/Roadsbx_las2/Roadsbx_las2.dff" cache="true"/>
+                <file src="carreteras/pasoBasurero/Roadsbx_las2/Roadsbx_las2.col" cache="true"/>
+                <script src="carreteras/pasoBasurero/Roadsbx_las2/Roadsbx_las2.lua" type="client" />
+            
+            <!--5125 :: By Skuishy - 795803505746640937-->
+                <file src="carreteras/pasoBasurero/NWCSTRD3_las2/NWCSTRD3_las2.dff" cache="true"/>
+                <file src="carreteras/pasoBasurero/NWCSTRD3_las2/NWCSTRD3_las2.col" cache="true"/>
+                <file src="carreteras/pasoBasurero/NWCSTRD3_las2/freeway2_las2.txd" cache="true"/>
+                <script src="carreteras/pasoBasurero/NWCSTRD3_las2/NWCSTRD3_las2.lua" type="client" />
+            
+            <!--5192 :: By Skuishy - 795803505746640937-->
+                <file src="carreteras/pasoBasurero/chemgrnd_las2/chemgrnd_las2.dff" cache="true"/>
+                <file src="carreteras/pasoBasurero/chemgrnd_las2/chemgrnd_las2.col" cache="true"/>
+                <script src="carreteras/pasoBasurero/chemgrnd_las2/chemgrnd_las2.lua" type="client" />
+            
+            <!--5107 :: By Skuishy - 795803505746640937-->
+                <file src="carreteras/pasoBasurero/chemplant2_las2/chemplant2_las2.dff" cache="true"/>
+                <script src="carreteras/pasoBasurero/chemplant2_las2/chemplant2_las2.lua" type="client" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    	<!--Skins-->
+			<!--Femenina Paramedica-->
+                <file src="skins/sfemt1/EMMSAfemale.txd" cache="true"/>
+                <file src="skins/sfemt1/EMMSAfemale.dff" cache="true"/>
+                <script src="skins/sfemt1/sfemt1.lua" type="client" />
+    	<!--Vehiculos-->
+			<!--Maverick-->
+				<file src="vehiculo_shader.fx" cache="true"/>
+				<file src="imagenes/saes.png" cache="true"/>
+                <file src="vehiculos/maverick.txd" cache="true"/>
+                <file src="vehiculos/maverick.dff" cache="true"/>
+        <!--Modelos-->
+            <!--17563 :: By Skuishy - 795803505746640937-->
+                <file src="modelo/wattspark1_LAe2/txd_wattspark1_LAe2.txd" cache="true"/>
+                <file src="modelo/wattspark1_LAe2/wattspark1_LAe2.dff" cache="true"/>
+                <file src="modelo/wattspark1_LAe2/wattspark1_LAe2.col" cache="true"/>
+                <script src="modelo/wattspark1_LAe2/wattspark1_LAe2.lua" type="client" />
+            <!--4601 :: By Skuishy - 795803505746640937-->
+                <file src="modelo/LAn2_gm1/Parking_lan2_gm1.txd" cache="true"/>
+                <file src="modelo/LAn2_gm1/LAn2_gm1.dff" cache="true"/>
+                <file src="modelo/LAn2_gm1/LAn2_gm1.col" cache="true"/>
+                <script src="modelo/LAn2_gm1/LAn2_gm1.lua" type="client" />
+
+            <!--5481 :: By Skuishy - 795803505746640937-->
+                <file src="modelo/laebridge/laebridge.dff" cache="true"/>
+                <file src="modelo/laebridge/laebridge.col" cache="true"/>
+                <script src="modelo/laebridge/laebridge.lua" type="client" />
+
+
+                
+</meta>

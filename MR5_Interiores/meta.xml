@@ -1,0 +1,14 @@
+<meta>   
+    <info 
+        author="- (TheBakkese King, ElTitoJet#4954)" 
+        version="0.1.0" 
+        name="Mireon5_Interiores" 
+        description="Interiores Publicos Gratuitos" 
+        type="script" 
+    />
+    <!--- Inicio -->
+    <script src="cInteriores.lua" type="client"/>
+    <script src="sInteriores.lua" type="server"/>
+    
+    <export function="Cambiar_De_Interior_A_Pie" type="server"/>
+</meta>

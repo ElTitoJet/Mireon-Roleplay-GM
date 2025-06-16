@@ -1,0 +1,15 @@
+<meta>   
+    <info 
+        author="- (TheBakkese King, ElTitoJet#4954)" 
+        version="0.1.0" 
+        name="Script_1" 
+        description="" 
+        type="script" 
+    />
+    <!--- Inicio -->
+
+    <script src="cConcesionario.luac" type="client"/>
+    <script src="sConcesionario.lua" type="server"/>
+    <export function="Spawnear_Vehiculos_Player" type="server"/>
+    <export function="StopConcesionarios" type="server"/>
+</meta>

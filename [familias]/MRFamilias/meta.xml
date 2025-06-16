@@ -1,0 +1,9 @@
+<meta>
+    <info author="- (TheBakkese King, ElTitoJet#4954)" version="0.1.0" name="Script_1" description="Script de familias" type="script" />
+    
+        <script src="c_Fami.luac" type="client" />
+        <script src="s_Fami.lua" type="server" />
+    
+        <export function="setFamUser" type="server"/>
+        <export function="StopFamilias" type="server"/>
+</meta>

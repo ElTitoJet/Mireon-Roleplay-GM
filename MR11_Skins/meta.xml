@@ -1,0 +1,14 @@
+<meta>   
+    <info 
+        author="- (TheBakkese King, TBK#5638)" 
+        version="0.1.0" 
+        name="" 
+        description="" 
+        type="script" 
+    />
+    <!--- Inicio -->
+
+    <script src="sSkins.lua" type="server"/>
+    <script src="cSkins.luac" type="client"/>
+
+</meta>

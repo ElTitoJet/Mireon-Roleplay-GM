@@ -1,0 +1,39 @@
+<meta>
+    <info author="- (TheBakkese King, ElTitoJet#4954)" version="0.1.0" name="Script_1" description="Script que se dedica a establecer el modo de juego, establecer el intervalo de tiempo y el reinicio automatico del servidor." type="script" />
+    <min_mta_version server="1.6.0-9.21765"></min_mta_version>
+    <oop>true</oop>
+    
+    <!--- LSPD -->
+        <script src="client.luac" type="client" />
+        <script src="server.lua" type="server" />
+        <script src="replace.luac" type="client" />
+        <script src="sObjetos.lua" type="server" />
+    
+    <!--Jail IC-->
+        <script src="JailIC/server.lua" type="server" />
+        <script src="JailIC/client.luac" type="client" />
+        <export function="playerJailICConnect" type="shared" />
+        <export function="playerJailICExitForJailOOC" type="shared" />
+        <export function="isPlayerJailedIC" type="shared" />
+        <export function="encarcelar" type="shared" />
+    
+    <!--Skin Femenina-->
+        <file src="SKINS/sfpd1.txd" />
+        <file src="SKINS/sfpd1.dff" />
+    
+    <!--Tazzer-->
+        <script src="taser/ClientResource.lua" type="client" />
+        <script src="taser/ClientWeapon.lua" type="client" />
+    <!--<script src="taser/ServerWeapon.lua" type="server" />-->
+        <script src="taser/staser.lua" type="server" />
+        <file src="taser/data/taser.dff" />
+        <file src="taser/data/taser.txd" />
+        <file src="taser/data/Fire.wav" />
+    
+    <!--Charlie-->
+        <file src="Vehiculos/copcarsf.dff" />
+        <file src="Vehiculos/copcarsf.txd" />
+        <file src="Vehiculos/copcarvg.dff" />
+        <file src="Vehiculos/copcarvg.txd" />
+    
+</meta>

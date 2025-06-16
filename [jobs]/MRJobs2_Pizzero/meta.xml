@@ -1,0 +1,16 @@
+<meta>
+    <info 
+        author="- (TheBakkese King, ElTitoJet#4954)" 
+        version="0.1.0" 
+        name="MRJobs2_Pizzero" 
+        description="Empresa publica Pizzero" 
+        type="script" 
+    />
+    
+    <!--- Inicio -->
+    <oop>true</oop>
+
+    <!--- LSES -->
+        <script src="c_pizza.luac" type="client"/>
+        <script src="s_pizza.lua" type="server"/>
+</meta>

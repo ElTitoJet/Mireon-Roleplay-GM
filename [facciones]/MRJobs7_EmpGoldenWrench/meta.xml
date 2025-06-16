@@ -1,0 +1,10 @@
+<meta>
+    <info author="- (TheBakkese King, ElTitoJet#4954)" version="0.1.0" name="MRJobs6_EmpSanctuary_Garage" description="Empresa privada Mecanico Market" type="script" />
+    
+    <!--- Inicio -->
+    <oop>true</oop>
+
+    <!--- LSES -->
+        <script src="server.lua" type="server"/>
+        <script src="client.luac" type="client"/>
+</meta>

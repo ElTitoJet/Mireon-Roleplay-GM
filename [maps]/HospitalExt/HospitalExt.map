@@ -1,0 +1,10 @@
+<map edf:definitions="editor_main">
+    <object id="object (cjgaragedoor) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="17951" scale="1.01" doublesided="true" collisions="true" posX="1172.86" posY="-1339" posZ="14.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cjgaragedoor) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="17951" scale="1.01" doublesided="false" collisions="true" posX="1172.89" posY="-1308.6" posZ="14.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (ad_flatdoor) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="3061" scale="1" doublesided="false" collisions="true" posX="1162.3" posY="-1330.58" posZ="31.7" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (helipad01) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="3934" scale="1" doublesided="false" collisions="true" posX="1161.8" posY="-1301.1" posZ="30.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (helipad01) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="3934" scale="1" doublesided="false" collisions="true" posX="1161.8" posY="-1317.3" posZ="30.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cjgaragedoor) (3)" breakable="false" interior="0" alpha="255" dimension="1" model="17951" scale="1" doublesided="false" collisions="true" posX="-1750.3" posY="981.20001" posZ="19.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cjgaragedoor) (4)" breakable="false" interior="0" alpha="255" dimension="1" model="17951" scale="1" doublesided="false" collisions="true" posX="-1750.3" posY="988.59998" posZ="19.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgsEbuild12_lvs) (1)" breakable="false" interior="0" alpha="255" dimension="1" model="8569" scale="1" doublesided="false" collisions="true" posX="-1753.089" posY="984.50781" posZ="19.96341" rotX="0" rotY="90" rotZ="0"></object>
+</map>

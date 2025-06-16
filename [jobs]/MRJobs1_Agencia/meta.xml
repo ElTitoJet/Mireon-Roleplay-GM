@@ -1,0 +1,21 @@
+<meta>
+    <info author="- (TheBakkese King, ElTitoJet#4954)" version="0.1.0" name="Script_1" description="Script que se dedica a establecer el modo de juego, establecer el intervalo de tiempo y el reinicio automatico del servidor." type="script" />
+    
+    <!--- Inicio -->
+    <script src="client.luac" type="client" />
+    <script src="server.lua" type="server" />
+
+    <script src="Mecanico/Meca_Server.lua" type="server" />
+    <script src="Mecanico/Meca_Client.luac" type="client" />
+    <script src="Mecanico/colorpicker/colorpicker.lua" type="client" />
+    
+    <file src="Mecanico/colorpicker/alpha.png" />
+    <file src="Mecanico/colorpicker/palette.png" />
+
+    <export function="setJobUser" type="server"/>
+    <export function="FuncionMecanica" type="server"/>
+    <export function="FuncionPintura" type="server"/>
+    <export function="PointMecanico" type="server"/>
+
+    <oop>true</oop>
+</meta>

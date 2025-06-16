@@ -1,0 +1,6 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (lasntrk3) (1)" radius="11.431451" interior="-1" model="3569" lodModel="3747" posX="2219.4219" posY="-2259.5234" posZ="14.88281" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (lasntrk3) (2)" radius="11.431451" interior="-1" model="3569" lodModel="3747" posX="2204.6328" posY="-2274.4141" posZ="14.9375" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (lasntrk3) (3)" radius="11.431451" interior="-1" model="3569" lodModel="3747" posX="2234.3906" posY="-2244.8281" posZ="14.9375" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (lasntrk1im03) (1)" radius="27.968847" interior="-1" model="5244" lodModel="5305" posX="2198.8516" posY="-2213.9219" posZ="14.88281" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

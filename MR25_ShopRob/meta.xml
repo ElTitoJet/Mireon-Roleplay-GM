@@ -1,0 +1,12 @@
+<meta>
+    <info 
+        author="ElTitoJet" 
+        type="script" 
+        version="1.0" 
+        name="MR25_ShopRob" 
+        description="Sistema de robos a tiendas" 
+        
+    />
+    <script src="c_Robs.lua" type="client" />
+    <script src="s_Robs.lua" type="server" />
+</meta>

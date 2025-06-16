@@ -1,0 +1,18 @@
+
+addEventHandler("onClientResourceStart", resourceRoot,
+function()
+local screenW, screenH = guiGetScreenSize()
+    SkinSelectorPannel = guiCreateWindow((screenW - 191) / 2, (screenH - 110) / 2, 191, 110, "SkinSelector", false)
+    guiWindowSetSizable(SkinSelectorPannel, false)
+
+    PreSkin = guiCreateButton(10, 29, 44, 29, "<--", false, SkinSelectorPannel)
+    guiSetProperty(PreSkin, "NormalTextColour", "FFAAAAAA")
+    ProSkin = guiCreateButton(131, 29, 44, 29, "-->", false, SkinSelectorPannel)
+    guiSetProperty(ProSkin, "NormalTextColour", "FFAAAAAA")
+    SkinID = guiCreateLabel(64, 39, 57, 15, "SkinID: 0", false, SkinSelectorPannel)
+    BottonCerrar = guiCreateButton(10, 68, 64, 29, "Cerrar", false, SkinSelectorPannel)
+    guiSetProperty(BottonCerrar, "NormalTextColour", "FFAAAAAA")
+    BottonComprar = guiCreateButton(111, 68, 64, 29, "Comprar", false, SkinSelectorPannel)
+    guiSetProperty(BottonComprar, "NormalTextColour", "FFAAAAAA")    
+end
+)

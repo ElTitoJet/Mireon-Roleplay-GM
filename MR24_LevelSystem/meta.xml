@@ -1,0 +1,12 @@
+<meta>
+    <info 
+        author="ElTitoJet" 
+        type="script" 
+        version="1.0" 
+        name="MR24_LevelSystem" 
+        description="Sistema de nivel" 
+        
+    />
+    <script src="c_Level.lua" type="client" />
+    <script src="s_Level.lua" type="server" />
+</meta>

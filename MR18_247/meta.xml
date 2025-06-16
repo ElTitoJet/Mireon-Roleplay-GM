@@ -1,0 +1,13 @@
+<meta>
+    <info 
+        author="ElTitoJet" 
+        type="script" 
+        version="1.0" 
+        name="MR18_247" 
+        description="Script de Compra venta 24/7" 
+        
+    />
+
+    <script src="c_247.lua" type="client" />
+    <script src="s_247.lua" type="server" />
+</meta>

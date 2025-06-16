@@ -1,0 +1,28 @@
+<meta>
+	<oop>true</oop>
+
+	<min_mta_version server="1.6.0-9" client='1.6.0-9.21890.0'/>
+
+	<script src="shared/Classlib.lua" type="shared" cache="false"/>
+	<script src="shared/Util.lua" type="shared" cache="false"/>
+
+	<!--LUA-->
+	<script src="Cliente/core.lua" type="client" cache="false"/>
+	<script src="Cliente/Client.lua" type="client" cache="false"/>
+	
+	<script src="Server/core.lua" type="server"/>
+	<script src="Server/Server.lua" type="server"/>
+
+
+	<export function='give' type='server'/>
+	<export function='take' type='server'/>
+	<export function='takeAll' type='server'/>
+	<export function='giveAmmo' type='server'/>
+	<export function='setCurrentSlot' type='server'/>
+
+	<export function='getCurrentSlot' type='shared'/>
+	<export function='getInfo' type='shared'/>
+	<export function='getFromPed' type='shared'/>
+	<export function='getAllFromPed' type='shared'/>
+
+</meta>

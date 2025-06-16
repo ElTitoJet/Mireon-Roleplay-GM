@@ -1,0 +1,30 @@
+<meta>
+    <info author="ElTitoJet" version="1.0" name="MR1_Inicio" description="Gestiona la DB y el inicio de la GM" type="script" />
+
+    <min_mta_version server="1.6.0-9" client='1.6.0-9.21890.0'/>
+
+    <script src="server.lua" type="server" />
+
+    <script src="MySQL.lua" type="server" />
+        <export function="query" type="shared" />
+        <export function="execute" type="shared" />
+        <export function="getDBConnection" type="shared" />
+
+    <script src="util/Textos3D/c_Textos3D.luac" type="client" />
+        <export function="createText3D" type="client" />
+        <export function="attachText3D" type="client" />
+        <export function="detachText3D" type="client" />
+        <export function="isAttachText3D" type="client" />
+
+    <script src="util/DataCentral/s_dataCentral.lua" type="server" />
+        <export function="setValue" type="server" />
+        <export function="getValue" type="shared" />
+        <export function="getValueOne" type="shared" />
+        <export function="getAllValue" type="shared" />
+    <script src="util/DataCentral/c_dataCentral.lua" type="client" />
+
+    <script src="util/UsersTOP/s_UsersTop.lua" type="server" />
+
+
+    <oop>true</oop>
+</meta>

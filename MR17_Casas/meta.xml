@@ -1,0 +1,17 @@
+<meta>
+    <info 
+        author="ElTitoJet" 
+        type="script" 
+        version="1.0" 
+        name="MR17_Casas" 
+        description="Script básico para gestionar casas y pisos." 
+        
+    />
+
+    <script src="c_Casas.lua" type="client" />
+    <script src="s_Casas.lua" type="server" />
+    
+                <file src="test/19522.col"/>
+                <file src="test/19522.dff"/>
+                <file src="test/19522.txd"/>
+</meta>

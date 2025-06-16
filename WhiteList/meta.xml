@@ -1,0 +1,9 @@
+<meta>
+    <info author="ElTitoJet" version="0.1.0" name="MRP2_Cuentas" description="" type="script" />
+    <min_mta_version server="1.5.8-9.20957"></min_mta_version>
+    
+    <!--- Util -->
+    <script src="server.lua" type="server" />
+    
+    <download_priority_group>1</download_priority_group>
+</meta>

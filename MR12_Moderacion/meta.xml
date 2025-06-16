@@ -1,0 +1,25 @@
+<meta>   
+    <info 
+        author="- (TheBakkese King, TBK#5638)" 
+        version="0.1.0" 
+        name="Staff Commands" 
+        description="Comandos Staff" 
+        type="script" 
+    />
+    <!--- Inicio -->
+    <script src="sModeracion.lua" type="server"/>
+    <script src="cModeracion.luac" type="client"/>
+
+    <script src="DUDAS/sDudas.lua" type="server" />
+
+    <script src="REPORTES/sReports.lua" type="server" />
+    
+    <script src="JAIL/sJail.lua" type="server" />
+	<script src="JAIL/cJail.luac" type="client" />
+    
+    <export function="playerJailConnect" type="shared" />
+    <export function="JailOOC" type="shared" />
+    <export function="isPlayerJailed" type="server"/>
+    <export function="playerJailDisconnect" type="shared" />
+    
+</meta>

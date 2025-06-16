@@ -1,0 +1,13 @@
+<meta>
+    <info 
+        author="ElTitoJet" 
+        type="script" 
+        version="1.0" 
+        name="MR20 Rental Bike" 
+        description="Script de renta de bicis" 
+        
+    />
+
+    <script src="c_RentalBike.luac" type="client" />
+    <script src="s_RentalBike.lua" type="server" />
+</meta>

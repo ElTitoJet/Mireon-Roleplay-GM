@@ -1,0 +1,12 @@
+<meta>   
+    <info 
+        author="- (TheBakkese King, ElTitoJet#4954)" 
+        version="0.1.0" 
+        name="Script_1" 
+        description="Gestion de vehiculos" 
+        type="script" 
+    />
+    <!--- Inicio -->
+    <script src="s_Script_1.lua" type="server"/>
+    <script src="c_Script_1.lua" type="client"/>
+</meta>

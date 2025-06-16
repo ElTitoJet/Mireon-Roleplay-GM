@@ -1,0 +1,19 @@
+<meta>
+    <info author="ElTitoJet" version="1.0" name="MR2_Cuentas" description="Script que gestiona las cuentas y jugadores." type="script"/>
+    <min_mta_version server="1.5.8-9.20957"></min_mta_version>
+    
+    <!--- Util -->
+    <script src="ids/sid.lua" type="server" />
+    <script src="ids/cid.luac" type="client" />
+    
+    <export function="getPlayerFromID" type="shared" />
+    <export function="getIDTempFromPlayer" type="shared" />
+    
+    <!--- Usuarios -->
+    <script src="Usuarios/cuser.luac" type="client" />
+    <script src="Usuarios/suser.lua" type="server" />
+
+    <!--- Personajes -->
+    <script src="Personajes/cpersonaje.luac" type="client" />
+    <script src="Personajes/spersonaje.lua" type="server" />
+</meta>

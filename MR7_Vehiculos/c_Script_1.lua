@@ -1,0 +1,11 @@
+
+--addEventHandler("onClientRender", root, function()
+--    local varDataSource = exports["MR1_Inicio"]:getValueOne(localPlayer)
+--    if not (varDataSource.InfoCuenta["Rango"] == 7 or varDataSource.InfoCuenta["Rango"] == 10) then
+--        return false
+--    end
+--    local vehicle = getPedOccupiedVehicle(localPlayer)
+--    
+--    local varDataVeh = exports["MR1_Inicio"]:getValueOne(vehicle)
+--    dxDrawText(inspect({varDataVeh, vehicle}), 450, 0)
+--end)

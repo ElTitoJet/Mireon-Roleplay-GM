@@ -1,0 +1,13 @@
+<meta>
+    <info 
+        author="ElTitoJet" 
+        type="script" 
+        version="1.0" 
+        name="MR19 Animaciones" 
+        description="Script de animaciones" 
+        
+    />
+
+    <script src="c_Animaciones.lua" type="client" />
+    <script src="s_Animaciones.lua" type="server" />
+</meta>

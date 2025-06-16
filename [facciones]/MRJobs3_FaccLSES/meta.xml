@@ -1,0 +1,11 @@
+<meta>
+    <info author="- (TheBakkese King, ElTitoJet#4954)" version="0.1.0" name="Script_1" description="Script que se dedica a establecer el modo de juego, establecer el intervalo de tiempo y el reinicio automatico del servidor." type="script" />
+    
+    <!--- Inicio -->
+    <oop>true</oop>
+
+    <!--- LSES -->
+        <script src="server.lua" type="server"/>
+        <script src="client.luac" type="client"/>
+
+</meta>

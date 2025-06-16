@@ -1,0 +1,16 @@
+<meta>
+    <info 
+        author="- (TheBakkese King, ElTitoJet#4954)" 
+        version="0.1.0" 
+        name="MRJobs10_Basurero" 
+        description="Empresa publica Basurero" 
+        type="script" 
+    />
+    
+    <!--- Inicio -->
+    <oop>true</oop>
+
+    <!--- LSES -->
+        <script src="s_basurero.lua" type="server"/>
+        <script src="c_basurero.luac" type="client"/>
+</meta>

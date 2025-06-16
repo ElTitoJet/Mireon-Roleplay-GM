@@ -1,0 +1,13 @@
+<meta>
+    <info author="ElTitoJet" version="0.1.0" name="MR16_Armas" description="" type="script" />
+
+    <script src="client.luac" type="client" />
+    <script src="server.lua" type="server" />
+
+    <export function="getPedWeapons" type="server"/>
+    <export function="saveWeapons" type="server"/>
+    <export function="loadWeapons" type="server"/>
+    <export function="loadWeapons2" type="server"/>
+    
+    <oop>true</oop>
+</meta>

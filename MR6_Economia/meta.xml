@@ -1,0 +1,14 @@
+<meta>   
+    <info 
+        author="- (TheBakkese King, ElTitoJet#4954)" 
+        version="0.1.0" 
+        name="Mireon6_Bancos" 
+        description="" 
+        type="script" 
+    />
+    <!--- Inicio -->
+    <script src="c_Script_1.luac" type="client"/>
+    <script src="s_Script_1.lua" type="server"/>
+    <export function="restarDinero" type="server"/>
+    <export function="SumarDinero" type="server"/>
+</meta>

@@ -1,0 +1,38 @@
+-- Panel Stats Cuenta
+    GUIEditor = {
+        tab = {},
+        tabpanel = {},
+        label = {},
+        button = {},
+        window = {},
+        gridlist = {}
+    }
+    addEventHandler("onClientResourceStart", resourceRoot,
+        function()
+    local screenW, screenH = guiGetScreenSize()
+            GUIEditor.window[1] = guiCreateWindow((screenW - 700) / 2, (screenH - 471) / 2, 700, 471, "Stats Cuenta", false)
+            guiWindowSetSizable(GUIEditor.window[1], false)
+
+            GUIEditor.tabpanel[1] = guiCreateTabPanel(10, 22, 680, 396, false, GUIEditor.window[1])
+
+            GUIEditor.tab[1] = guiCreateTab("Informacion general", GUIEditor.tabpanel[1])
+
+            GUIEditor.label[1] = guiCreateLabel(10, 10, 314, 107, "Informacion de la cuenta\n\n- Cuenta :: ..accountName.. (#ID DB)\n- Nivel :: ..accountLevel..\n- Tiempo de juego :: ..accountTime..\n- PDR :: ..pdr.. (+0 | -0)", false, GUIEditor.tab[1])
+            GUIEditor.label[2] = guiCreateLabel(356, 10, 314, 107, "Estado Cuenta\n\n- Rango :: ..accountRank..\n- VIP :: ..accountVIP..", false, GUIEditor.tab[1])
+            GUIEditor.label[3] = guiCreateLabel(10, 117, 314, 107, "Personajes\n\n- PJ 1 :: ..PJ1Name..\n- PJ 2 :: ..PJ2Name..", false, GUIEditor.tab[1])
+            GUIEditor.label[4] = guiCreateLabel(356, 117, 314, 107, "Info generica Personajes\n\n- Dinero total :: ..playerMoney..", false, GUIEditor.tab[1])
+
+            GUIEditor.tab[2] = guiCreateTab("Sanciones", GUIEditor.tabpanel[1])
+
+            GUIEditor.gridlist[1] = guiCreateGridList(10, 10, 660, 352, false, GUIEditor.tab[2])
+            guiGridListAddColumn(GUIEditor.gridlist[1], "Personaje", 0.2)
+            guiGridListAddColumn(GUIEditor.gridlist[1], "Staff", 0.2)
+            guiGridListAddColumn(GUIEditor.gridlist[1], "Fecha", 0.2)
+            guiGridListAddColumn(GUIEditor.gridlist[1], "Motivo", 0.2)
+
+
+            GUIEditor.button[1] = guiCreateButton(10, 428, 680, 33, "CERRAR PANEL", false, GUIEditor.window[1])
+            guiSetProperty(GUIEditor.button[1], "NormalTextColour", "FFAAAAAA")    
+        end
+    )
+-- Panel Stats PJ

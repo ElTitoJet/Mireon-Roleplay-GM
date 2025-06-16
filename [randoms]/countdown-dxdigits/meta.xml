@@ -1,0 +1,5 @@
+<meta>
+	<info author="Dutchman101" name="countdown-dx" version="1.6" type="script" />
+	<script src="client.lua" type="client"/>
+	<script src="server.lua" type="server"/>
+</meta>

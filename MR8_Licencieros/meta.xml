@@ -1,0 +1,12 @@
+<meta>   
+    <info 
+        author="- (TheBakkese King, ElTitoJet#4954)" 
+        version="0.1.0" 
+        name="Script_1" 
+        description="" 
+        type="script" 
+    />
+    <!--- Inicio -->
+    <script src="c_licencieros.luac" type="client"/>
+    <script src="s_licencieros.lua" type="server"/>
+</meta>

@@ -1,0 +1,14 @@
+<meta>   
+    <info 
+        author="- (TheBakkese King, TBK#5638)" 
+        version="0.1.0" 
+        name="Staff Commands" 
+        description="Comandos Staff" 
+        type="script" 
+    />
+    <!--- Inicio -->
+    <script src="server.lua" type="server"/>
+    <script src="client.lua" type="client"/>
+    <script src="stats/s_stats.lua" type="server"/>
+    <script src="stats/c_stats.lua" type="client"/>
+</meta>

@@ -1,0 +1,13 @@
+<meta>
+    <info 
+        author="ElTitoJet" 
+        type="script" 
+        version="1.0" 
+        name="MR20 NPC Ilegales" 
+        description="Script para venta de ilegales" 
+        
+    />
+
+    <script src="c_npcIlegal.luac" type="client" />
+    <script src="s_npcIlegal.lua" type="server" />
+</meta>
